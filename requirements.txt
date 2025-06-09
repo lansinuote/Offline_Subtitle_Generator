@@ -1,0 +1,4 @@
+openai-whisper==20240930
+tiktoken==0.9.0
+pydub==0.25.1
+ffmpeg==2025-06-02
