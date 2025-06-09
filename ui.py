@@ -61,6 +61,7 @@ def show_info():
     log_message("这个程序是由 蓝斯诺特 制作的.感谢使用!")
     log_message("别忘了关注我的B站:https://space.bilibili.com/7877324")
     log_message("别忘了关注我的github:https://github.com/lansinuote")
+    log_message("这个程序发布在: https://github.com/lansinuote/Offline_Subtitle_Generator")
 
 info_button = tk.Button(frame, text="信息", command=show_info)
 info_button.grid(row=2, column=2, padx=5, sticky='w')

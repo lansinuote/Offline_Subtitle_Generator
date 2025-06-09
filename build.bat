@@ -1,1 +1,1 @@
-pyinstaller --onefile --windowed --add-binary "libs/ffmpeg.exe;libs" --add-data "libs/large-v3-turbo.pt;libs" --collect-data whisper main.py
+pyinstaller --onefile --windowed --clean --noconfirm --add-binary "libs/ffmpeg.exe;libs" --add-data "libs/large-v3-turbo.pt;libs" --collect-data whisper --name=ÀëÏß×ÖÄ»Ê¶±ð ui.py
