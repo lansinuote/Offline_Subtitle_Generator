@@ -2,4 +2,4 @@
 
 ![image](https://github.com/lansinuote/Offline_Subtitle_Generator/blob/main/libs/ui.png)
 
-下载地址:
+下载地址: 点这个页面右边的Release
