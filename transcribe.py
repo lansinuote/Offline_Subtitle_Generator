@@ -2,8 +2,16 @@ import whisper
 import os
 from pydub import AudioSegment
 import torch
+import sys
 
-AudioSegment.converter = os.path.join(os.path.dirname(__file__), 'libs', 'ffmpeg.exe')
+if hasattr(sys, '_MEIPASS'):
+    libs_path = os.path.join(sys._MEIPASS, 'libs')
+else:
+    libs_path = './libs'
+
+os.environ['PATH'] = libs_path + os.pathsep + os.environ['PATH']
+
+# AudioSegment.converter = os.path.join(os.path.dirname(__file__), 'libs', 'ffmpeg.exe')
 
 # 格式化时间戳
 def format_timestamp(seconds):
