@@ -35,7 +35,6 @@ def transcribe(log_message,audio_file_path,chunk_duration_sec,one_line_max_lengt
     srt_file_path = audio_file_path + '.srt'
 
     # 输出所有的参数到日志框
-    log_message('转录参数:')
     log_message('音频文件路径: %s' % audio_file_path)
     log_message('处理间隔: %d秒' % chunk_duration_sec)
     log_message('每条字幕最大字数: %d' % one_line_max_length)
