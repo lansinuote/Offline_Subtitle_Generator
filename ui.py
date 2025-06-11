@@ -7,7 +7,7 @@ from transcribe import transcribe
 
 # 创建主窗口
 root = tk.Tk()
-root.title('音频转字幕')
+root.title('音频转字幕 v1.0')
 root.geometry('600x500')  # 调整窗口尺寸
 
 # 创建一个框架,用于放置输入框和按钮
@@ -41,7 +41,7 @@ interval_label = tk.Label(frame, text='处理间隔（秒）:')
 interval_label.grid(row=1, column=0, padx=5, sticky='w')
 
 interval_entry = tk.Entry(frame)
-interval_entry.insert(0, '120')  # 默认值120秒
+interval_entry.insert(0, '1200')  # 默认值120秒
 interval_entry.grid(row=1, column=1, padx=5, sticky='ew')
 
 # 添加每条字幕最大字数的输入框
